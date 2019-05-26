@@ -1,0 +1,32 @@
+Q1) How to list all the branches(local and remote)?
+Ans: git branch -a
+
+Q2) How to delete a branch?
+Ans: git branch -d <branch_name>
+
+Q3) How to create a new branch and simultaneously switching to it?
+Ans: git checkout -b <branch_name>
+
+Q4) How to list all the branches(local and remote)?
+Ans: git branch -a
+
+Q5) How to merge a branch into a target branch?
+Ans: git checkout <target_branch>
+     git merge <branch to be merged>
+
+Q6) What is stash in Git and what is the command to stash changes?
+Ans: git stash
+     It is command which saves all changes in branch temporarily and changes branch to its initial stage.
+
+Q7) How to view all the commits in a compact form? (Where we get only the Commit Name and ID)
+Ans: 
+
+Q8) How to view differences between two branches?
+Ans: git diff
+
+Q9) What is SSH and how is cloning with Https different from cloning with SSH?
+Ans:
+
+Q10) Difference between reset hard and reset soft and what are these used for?
+Ans: reset soft will remove the last commit and the files changes will not be lost and also files will be there in staging area..\
+     while reset hard removes all file changes and also there is nothing in the staging area.. that means working directory is clean now.
